@@ -429,10 +429,10 @@ def main():
                     msg += f"⌚TIME: {time}\n"
                     msg += f"🌐TIMEZONE: {TIMEZONE}\n"
                 else:
-                    msg = f"Bot Restarted!\n"
+                    msg = f"Auto Bot Restarted!\n"
                     msg += f"DATE: {date}\n"
                     msg += f"TIME: {time}\n"
-                    msg += f"HOMBALE-TIME: {TIMEZONE}"
+                    msg += f"PLACE: {TIMEZONE}"
 
                 for tag, links in data.items():
                      msg += f"\n{tag}: "
