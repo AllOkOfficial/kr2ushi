@@ -577,7 +577,7 @@ def main():
                     msg = f"Bot Restarted!\n"
                     msg += f"DATE: {date}\n"
                     msg += f"TIME: {time}\n"
-                    msg += f"HOMBALE-TIME: {TIMEZONE}"
+                    msg += f"PLACE: {TIMEZONE}"
 
                 for tag, links in data.items():
                      msg += f"\n{tag}: "
