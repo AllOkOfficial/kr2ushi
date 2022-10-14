@@ -77,7 +77,7 @@ def getHerokuDetails(h_api_key, h_app_name):
             abc += f"<b>├ 👍🏻 FREE</b>: {get_readable_time(quota_remain)}\n"
         else:
             abc += f'<b></b>\n'
-            abc += f'<b>╭─《 HEROKU STATS 》</b>\n'
+            abc += f'<b>╭─《 CLOUD STATS 》</b>\n'
             abc += f"<b>├ FULL</b>: {get_readable_time(account_quota)}\n"
             abc += f"<b>├ USED</b>: {get_readable_time(quota_used)}\n"
             abc += f"<b>├ FREE</b>: {get_readable_time(quota_remain)}\n"
