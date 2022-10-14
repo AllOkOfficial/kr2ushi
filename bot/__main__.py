@@ -429,7 +429,7 @@ def main():
                     msg += f"⌚TIME: {time}\n"
                     msg += f"🌐TIMEZONE: {TIMEZONE}\n"
                 else:
-                    msg = f"Auto Bot Restarted!\n"
+                    msg = f"Bot Restarted!\n"
                     msg += f"DATE: {date}\n"
                     msg += f"TIME: {time}\n"
                     msg += f"PLACE: {TIMEZONE}"
